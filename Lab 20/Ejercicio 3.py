@@ -16,3 +16,4 @@ def minimo(x,y):
 x=int(input("Ingrese un numero: "))
 y=int(input("Ingrese otro numero: "))
 print(maximo(x-3, minimo(x+2, y-5)))
+print("Gracias")

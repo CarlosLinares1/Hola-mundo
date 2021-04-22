@@ -6,3 +6,4 @@ for i in range(3):
   x=x+1
   y=y+1
 print("Coordenada x: ", x, " . " , "Coordenada y: ", y)
+print("Gracias")

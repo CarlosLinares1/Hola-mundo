@@ -43,3 +43,4 @@ while primo(numero):
     if numero > mayor:
         mayor=numero
 print("El factorial de",mayor,"es :",factorial(mayor))
+print("Gracias")
