@@ -5,11 +5,13 @@ areac = pi * (radio ** 2)
 perimetro = (2 * pi) * radio
 print("El area del circulo es: ", areac)
 print("El perimetro del circulo es: ", perimetro)
+
 #Ejercicio 6 - Programa que muestre la venta de un producto con y sin IVA
 pan = 2000
 IVA = (pan*19/100)
 paniva = (pan+IVA)
 print("El costo original del pan es: ", + pan, ",el IVA es de: ", + IVA, "Y el costo del pan con IVA es de: ", +paniva)
+
 #Ejercicio 27 - Programa que pida dos numeros y determine el mayor
 s = int(input("Ingrese un numero: "))
 y = int(input("Ingrese un numero: "))
@@ -44,3 +46,5 @@ else:
                 else:
                     if (x>t) and (x>z) and (t>z):
                         print("El numero mayor es: ", + x, "Y el numero menor es: ", z)
+                    else:
+                        print("Ingrese numeros diferentes")

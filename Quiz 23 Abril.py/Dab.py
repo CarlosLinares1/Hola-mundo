@@ -11,7 +11,7 @@ B = [] #Lista de los nombres
 C = [] #Lista de caracteres en el nombre
 for i in range (0,A): #Se crea un for para los nombres
     B.append(input("Ingresa el nombre de las personas presentes: ")) #Se pregunta cuantas personas hay
-print ("Nombre: ", B) #Se imprime el nombre de las peronas
+print ("Nombres: ", B) #Se imprime el nombre de las peronas
 for j in range (0,A): #Se crea un for para los caracteres
     C.append(len(B[j])) #Se crea un lectura de la cantidad de caracteres
 print("Cantidad de letras en el nombre: ", C) #Se imprime la cantidad de caracteres en los nombres

@@ -1,17 +1,3 @@
-#Ejercicio 29 - Programa que pida tres numeros y determine el mayor y el menor
-t = int(input("Ingrese un numero: "))
-x = int(input("Ingrese un numero: "))
-y = int(input("Ingrese un numero: "))
-if (t > x)  and (t > y) and (x < y):
-    print("El numero mayor es: ", + t, "Y el numero menor es: ", + y)
-else:
-    if (x > t) and (x > y) and (t < y):
-        print("El numero mayor es: ", + x, "Y el menor es: ", + y)
-    else:
-        if (y > t) and (y > x) and (x < t):
-            print("El numero mayor es: ", + y, "Y el menor es: ", + t)
-print("Se acabo, crack")
-
 #Ejercicios 30 - Programa que lee 3 numero y determina si la suma de los dos primeros es mayor que el tercero
 g = int(input("Ingrese un numero: "))
 h = int(input("Ingrese un numero: "))
@@ -33,6 +19,27 @@ def user_contraseña():
         if clave == contraseña:
             print("Inicio de sesión exitoso, turbo jhonathan")
     else:
-        print("Bobo hpta")
+        print("Mal, ingreselo bien")
 
 user_contraseña()
+
+#Ejercicio 5
+num = float(input("Ingresa un numero decimal: "))
+entera = int(num // 1)
+decimal = num - entera
+print("La parte entera es: ", entera, "y la parte decimal es: ", decimal)
+
+#Ejercicio 8
+import math
+lado = float(input("Ingrese el valor de los lados del hexagono: "))
+perimetro = lado * 6
+apotema = math.sqrt(lado ** 2 - (lado / 2) ** 2)
+area = (perimetro * apotema) / 2
+print("El area del hexagono es: ", area)
+
+#Ejercicio 9
+n1 = int(input("Ingrese el primer numero: "))
+n2 = int(input("Ingrese el segundo numero: "))
+n3 = int(input("Ingrese el tercero numero: "))
+promedio = (n1+n2+n3) /3
+print("El promedio es: ", promedio)
